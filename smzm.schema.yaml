@@ -192,7 +192,7 @@ key_binder:
     - {when: has_menu, accept: Right, send: Down}  
     - {when: has_menu, accept: equal, send: Page_Down} 
     - {when: has_menu, accept: minus, send: Page_Up}  
-    - {accept: Shift+space, toggle: full_shape, when: always}
+    - {accept: Shift+space+P, toggle: full_shape, when: always}
     - {accept: Control+period, toggle: ascii_punct, when: always}   
     - {when: has_menu, accept: apostrophe, send: 2} 
     - { when: has_menu, accept: Tab, send: 3}   
