@@ -1,0 +1,26 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Sat Nov  2 00:42:35 2024"
+  rime_version: 1.11.2
+patch:
+  "app_options/code.exe":
+    ascii_mode: true
+  "app_options/devenv.exe":
+    ascii_mode: true
+  "app_options/illustrator.exe":
+    ascii_mode: true
+  "app_options/photoshop.exe":
+    ascii_mode: true
+  "app_options/plantsvszombies":
+    ascii_mode: true
+  "app_options/sublime_text.exe":
+    ascii_mode: true
+  "app_options/totalcmd.exe":
+    ascii_mode: true
+  "app_options/totalcmd64.exe":
+    ascii_mode: true
+  "app_options/winkawaks.exe":
+    ascii_mode: true
+  "style/color_scheme": aqua

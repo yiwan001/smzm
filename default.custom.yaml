@@ -1,0 +1,34 @@
+# default.custom.yaml
+# save it to:
+#   ~/.config/ibus/rime  (linux)
+#   ~/Library/Rime       (macos)
+#   %APPDATA%\Rime       (windows)
+
+#主要目的为设置“方案设置”快捷键、改善设置显示方式。
+
+
+patch:
+  schema_list:
+    - {schema: smzm}
+  
+  switcher:
+    caption: 〔输入法设置〕 
+    hotkeys:
+      - Control+grave
+      - Control+Shift+grave   #win系统中可能和切换输入法冲突。
+      - F4    #可能与其它软件快捷冲突。
+      #- Control+Shift+S  
+    save_options: 
+      - full_shape
+      - ascii_punct
+      - simplification
+      - extended_charset
+      - zh_hant
+      - zh_hans
+      - zh_hant_tw
+    fold_options: false
+    abbreviate_options: true
+    option_list_separator: '／'
+  
+  menu:
+    page_size: 9
